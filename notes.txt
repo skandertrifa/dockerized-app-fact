@@ -1,0 +1,6 @@
+touch Dockerfile .dockerignore
+( contents in Dockerfile)
+docker build -t skandertrifa/tp2 .
+docker run -d -p 8080:8080 skandertrifa/tp2
+( Navigate to localhost:8080)
+
